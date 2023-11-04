@@ -8,7 +8,7 @@ document.getElementById('donateButton').addEventListener('click', function() {
 
     const handler = PaystackPop.setup({
     key: publicKey,
-    email: document.getElementById('user_email').value, 
+    email: 'aremudaramola5@gmail.com', 
     amount: amount * 100, 
     ref: 'donation_' + Math.floor((Math.random() * 1000000000) + 1),
     onClose: function() {
