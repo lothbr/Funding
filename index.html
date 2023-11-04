@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Funding for Surgery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Funding for Surgery</h1>
+        <p>Please help us raise funds for the surgery.</p>
+
+        <!-- Quote or Image div -->
+        <div id="quoteOrImage">
+            <!--<img src="Amanda.png" alt="Suitable Image"> -->
+            <!-- or -->
+            <p>We are reaching out to you today with a heartfelt plea for help. Our beloved friend, Amanda, is in desperate need of a life-changing hip replacement surgery,
+                and we are rallying together to make it happen. Amanda has always been a vibrant, active, and caring individual. 
+                She has dedicated her life to helping others and spreading kindness wherever she goes. Unfortunately, her own physical health has taken a toll, and she's been enduring excruciating pain in her hip for far too long.
+                Her mobility has been greatly limited, and her quality of life has suffered.
+                Your generosity will go a long way in making a real difference for our dear friend. Let's show Amanda that she's not alone and that we stand by her side during this challenging time.
+                Thank you for your support, and together, we can help Amanda get back on her feet.</p>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="amount">Donation Details:</label>
+                <input type="email" class="form-control" id="user_email" placeholder="Email Address" required>
+                <br>
+                <input type="number" class="form-control" id="amount" placeholder="Enter amount" required>
+            </div>
+            <button type="button" class="btn btn-primary" id="donateButton">Donate</button>
+        </form>
+    </div>
+    
+
+    <!-- Paystack Integration Script -->
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
