@@ -1,0 +1,31 @@
+.thanks {
+    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.thanks h2 {
+    color: green;
+}
+
+.thanks p {
+    font-size: 18px;
+}
+
+body {
+    background-image: url('watermark.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background to make content more readable */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+#donateButton {
+    margin-top: 10px;
+}
