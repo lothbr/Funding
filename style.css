@@ -33,7 +33,7 @@
 
 .container p {
     font-size: 18px;
-    font-family: cursive;
+    font-family: arial;
 }
 
 .container .quoteOrImage::after {
