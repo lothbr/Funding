@@ -33,7 +33,7 @@
 
 .container p {
     font-size: 18px;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container .quoteOrImage::after {
@@ -50,7 +50,7 @@
 }
 .container .form-group {
     margin-top: 30px;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container #amount {
