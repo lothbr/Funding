@@ -2,7 +2,7 @@
 const publicKey = 'pk_test_5cec0b7059cc6cc2fadf921806f3c1dc38e6c8ea';
 
 document.getElementById('donateButton').addEventListener('click', function() {
-    
+    const amount = document.getElementById('amount').value;
 
     const handler = PaystackPop.setup({
         key: publicKey,
