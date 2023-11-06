@@ -1,5 +1,5 @@
 
-const publicKey = 'pk_test_5cec0b7059cc6cc2fadf921806f3c1dc38e6c8ea';
+const publicKey = 'pk_live_ebffb8ad10364b409da3a9bdb07a1c1c437e6abd';
 
 document.getElementById('donateButton').addEventListener('click', function() {
     const amount = document.getElementById('amount').value;
